@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_navigation">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.suraj.quizzer.HomeFragment"
+        android:label="@string/home"/>
+
+    <fragment android:id="@+id/profileFragment"
+        android:name="com.suraj.quizzer.ProfileFragment"
+        android:label="@string/profile"/>
+
+    <fragment android:id="@+id/aboutFragment"
+        android:name="com.suraj.quizzer.AboutFragment"
+        android:label="@string/about"/>
+
+</navigation>

@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "208172904068",
+    "project_id": "quiz-application-4c25b",
+    "storage_bucket": "quiz-application-4c25b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208172904068:android:113d27454716f2b71d1cd1",
+        "android_client_info": {
+          "package_name": "com.minorp.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208172904068-75q5kidd6g5amm9ef0bp4jcqrj3353sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEoiIsSw586yrnBEOlv1lnRH-RsypGNYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208172904068-75q5kidd6g5amm9ef0bp4jcqrj3353sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208172904068:android:2167940e128f2d541d1cd1",
+        "android_client_info": {
+          "package_name": "com.suraj.quizzer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208172904068-bt621dp7es61rcp9mnkfu678vg9gf7sa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suraj.quizzer",
+            "certificate_hash": "e6f74886898f16577481f059f1664d9eb40cc6e2"
+          }
+        },
+        {
+          "client_id": "208172904068-75q5kidd6g5amm9ef0bp4jcqrj3353sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEoiIsSw586yrnBEOlv1lnRH-RsypGNYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208172904068-75q5kidd6g5amm9ef0bp4jcqrj3353sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

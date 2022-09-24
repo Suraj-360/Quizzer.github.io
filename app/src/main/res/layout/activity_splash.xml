@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/splash_background"
+    tools:context=".SplashActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/splashGif"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/quizzer" />
+
+    <com.mursaat.extendedtextview.AnimatedGradientTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashGif"
+        android:layout_alignStart="@id/splashGif"
+        android:layout_alignEnd="@id/splashGif"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:text="@string/quizzer"
+        android:textColor="@color/materialLime"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:angle="45"
+        app:colors="@array/funny_colors"
+        app:maxFPS="30"
+        app:simultaneousColors="4"
+        app:speed="1000" />
+</RelativeLayout>
